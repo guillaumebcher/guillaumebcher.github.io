@@ -91,15 +91,47 @@ video {
 
 /*structure*/
 .item div {
-	width: 10%;
+	height: -webkit-fill-available;
 	float: left;
-	overflow: hidden;
+	overflow-x: hidden;
 	text-overflow: ellipsis;
     white-space: nowrap;
 }
+.num {
+	width: 2.7%;
+}
+.title {
+	width: 21.3%;
+}
+.author {
+	width: 21.3%;
+}
+.collab {
+	width: 21.3%;
+}
+.medium {
+	width: 4.8%;
+}
+.page {
+	width: 3.3%;
+}
+.size {
+	width: 6.4%;
+}
+.isbn {
+	width: 9.7%;
+}
+.price {
+	width: 4.5%;
+}
+.year {
+	width: 2.7%;
+}
+
 .wrapper {
-    width: 100%;
+    width: calc(100% - 32px);
     height: 100%;
+    margin: 0 auto;
 }
 .wrapper:after {
   display: table;
@@ -116,6 +148,9 @@ video {
 }
 
 /*project-items*/
+li.item {
+	height: 17px;
+}
 
 
 /*responsive*/
