@@ -98,34 +98,34 @@ video {
     white-space: nowrap;
 }
 .num {
-	width: 2.7%;
+	width: 2.9%;
 }
 .title {
-	width: 21.3%;
+	width: 21.5%;
 }
 .author {
-	width: 21.3%;
+	width: 21.5%;
 }
 .collab {
-	width: 21.3%;
+	width: 21.5%;
 }
 .medium {
-	width: 4.8%;
+	width: 5%;
 }
 .page {
-	width: 3.3%;
+	width: 3.5%;
 }
 .size {
-	width: 6.4%;
+	width: 6.6%;
 }
 .isbn {
-	width: 9.7%;
+	width: 9.9%;
 }
 .price {
-	width: 4.5%;
+	width: 4.7%;
 }
 .year {
-	width: 2.7%;
+	width: 2.9%;
 }
 
 .wrapper {
